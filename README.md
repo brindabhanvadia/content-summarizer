@@ -1,9 +1,11 @@
 # content-summarizer
 Web Scraping - Content Summarization using Beautiful Soup
 
-This Python project fetches a webpage's content and summarizes its text using Beautiful Soup and a summarization algorithm. It is designed to provide concise and relevant insights from lengthy web pages in just a few steps.
 
-Features
+  This Python project fetches a webpage's content and summarizes its text using Beautiful Soup and a summarization algorithm. It is designed to provide concise and relevant insights from lengthy web pages in just a few steps.
+
+
+**Features**
 
 Fetch Webpages: Retrieve HTML content from any given URL.
 
@@ -13,11 +15,13 @@ Summarize Content: Generate a brief summary of the extracted content.
 
 Command-Line Interface: Input a URL and get the summary directly in your terminal.
 
+
 Prerequisites
 
 Ensure you have the following installed:
 
 Python 3.7+
+
 
 Required Python libraries:
 
@@ -27,6 +31,7 @@ requests
 
 nltk (optional, if used in your summarizer)
 
+
 Project Structure
 
 main.py: The entry point of the project.
@@ -34,6 +39,7 @@ main.py: The entry point of the project.
 scraper.py: Contains functions for fetching and extracting content from a webpage.
 
 summarizer.py: Contains the logic for summarizing the extracted content.
+
 
 How It Works
 
@@ -43,11 +49,13 @@ Extracting Content: The extract_content function parses the HTML using Beautiful
 
 Summarizing: The summarize_content function processes the text to produce a summary.
 
+
 Limitations
 
 May not handle JavaScript-heavy websites effectively (use libraries like Selenium for such cases).
 
 The summarization quality depends on the implementation in summarizer.py.
+
 
 Contributing
 
@@ -63,6 +71,8 @@ Push to the branch (git push origin feature-name).
 
 Create a pull request.
 
+
+
 Acknowledgments
 
 Beautiful Soup for HTML parsing.
@@ -70,3 +80,5 @@ Beautiful Soup for HTML parsing.
 Requests for HTTP requests.
 
 Open-source Python community for tools and libraries.
+
+
